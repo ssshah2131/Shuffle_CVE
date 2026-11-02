@@ -4,7 +4,7 @@
 |---|---|
 | **Vendor** | Shuffle AS (https://shuffler.io) |
 | **Product** | Shuffle (SOAR), self-hosted / on-prem deployment |
-| **Affected** | Shuffle ≤ 2.3.0 (latest stable) and 2.3.1-rc2 (latest pre-release); still present on `main` (2026-11-02) |
+| **Affected** | Shuffle ≤ 2.3.0 (latest stable) and 2.3.1-rc2 (latest pre-release);|
 | **Vulnerable component** | Backend OpenID handler, `VerifyIdToken()` in Shuffle's Go module `shuffle-shared` (`oauth2.go`), compiled into `ghcr.io/shuffle/shuffle-backend` |
 | **Fixed** | None at time of publication |
 | **Vulnerability class** | CWE-347 Improper Verification of Cryptographic Signature → CWE-287 Improper Authentication |
