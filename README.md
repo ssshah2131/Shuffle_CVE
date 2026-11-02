@@ -319,5 +319,3 @@ Within this chain, the entry point is unauthenticated and the end result is code
 * CWE-347: https://cwe.mitre.org/data/definitions/347.html
 * CWE-287: https://cwe.mitre.org/data/definitions/287.html
 * CWE-200: https://cwe.mitre.org/data/definitions/200.html
-
-*For authorized testing and defensive purposes only.*
